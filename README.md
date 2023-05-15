@@ -39,6 +39,44 @@ npm install recharts
 <li>Home.js</li>
 <li>Chart.js</li>
 <li>Navigation.js</li>
+<br/>
+<h2>App.js</h2>
+br/>
+This code sets up the routing for a React application using React Router. Let's go through it step by step:
+
+The line import './App.css'; imports the CSS file for styling the components in the application.
+
+The line import React from 'react'; imports the necessary modules from the React library.
+
+The lines import Home from './Home';, import NotFound from './NotFound';, and import Download from './Download'; import the components that will be rendered for specific routes.
+
+The line import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; imports the necessary components from the React Router library.
+
+The App function is a React functional component that serves as the entry point for the application.
+
+Inside the App component, the Router component is used to set up the routing configuration.
+
+The Routes component is used as a container for defining individual routes.
+
+The Route components define the routes and specify which component should be rendered when a specific route is matched.
+
+The first Route component has a path prop set to '/' and an element prop set to <Home />. It indicates that when the root path is accessed, the Home component should be rendered.
+
+The second Route component has a path prop set to '/download' and an element prop set to <Download />. It specifies that when the /download path is accessed, the Download component should be rendered.
+
+The third Route component has a path prop set to '*' which acts as a wildcard, matching any path that hasn't been matched by the previous routes. The element prop is set to <NotFound />, indicating that if none of the defined routes match, the NotFound component should be rendered.
+
+The Router and Routes components are wrapped around the content of the App component.
+
+Finally, the App component is exported as the default export of the module.
+
+This code sets up the basic routing structure for the application, rendering different components based on the accessed URL paths. The Home, Download, and NotFound components are used as placeholders for the actual components that will be rendered for each route.
+
+
+
+
+
+
   
 The Chart component has the following features:
 <br/>
