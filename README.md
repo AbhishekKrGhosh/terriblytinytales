@@ -92,7 +92,7 @@ The JSX code within the return statement represents the structure and content of
 <br/>
 The JSX code is wrapped in a div element.
 <br/>
-The <section> element represents a section within the page.
+The section element represents a section within the page.
 <br/>
 There are three div elements with the class name "Colour" that are used to create colored background sections.
 <br/>
