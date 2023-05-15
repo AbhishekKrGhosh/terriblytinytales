@@ -34,4 +34,24 @@ npm install react-router-dom
 npm install recharts
 <br/>
 
+<h3>Component Explanation<h3/>
+  
+The Chart component has the following features:
+<br/>
+It uses the useState hook to manage the state of histogramData and loading.
+ <br/> 
+The useEffect hook is used to fetch data from the server when the component mounts.
+  <br/>
+The fetchData function makes an asynchronous request to the server using axios.get and processes the response data.
+  <br/>
+The processed data is stored in the histogramData state variable.
+  <br/>
+The exportData function converts the histogramData to CSV format and initiates the download of the CSV file.
+  <br/>
+The component renders a bar chart using the BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, and Legend components from the Recharts library.
+  <br/>
+The bar chart is only rendered when there is data available in the histogramData.
+  <br/>
+A button is provided to export the histogram data as a CSV file.
+  <br/>
 
