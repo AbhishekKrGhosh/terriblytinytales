@@ -24,10 +24,14 @@ This is a React component for visualizing histogram data using the Recharts libr
 <h3>Installation</h3>
 
 To use this component in your React project, you need to have react, react-router-dom, recharts and axios installed. You can install them by running the following command:
-
+<br/>
 npm install react
+<br/>
 npm install axios
+<br/>
 npm install react-router-dom
+<br/>
 npm install recharts
+<br/>
 
 
