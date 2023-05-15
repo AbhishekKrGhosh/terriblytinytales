@@ -34,7 +34,7 @@ npm install react-router-dom
 npm install recharts
 <br/>
 
-<h3>Component Explanation<h3/>
+<h3>Component Explanation </h3>
   
 The Chart component has the following features:
 <br/>
