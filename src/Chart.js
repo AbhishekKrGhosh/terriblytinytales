@@ -14,7 +14,7 @@ const Chart = () => {
     try {
       const response = await axios.get('https://www.terriblytinytales.com/test.txt');
       const textData = response.data;
-      const words = textData.split(/\s+/); // Split the text by whitespace characters
+      const words = textData.split(/\s+/); 
       const wordCountMap = words.reduce((countMap, word) => {
         countMap[word] = (countMap[word] || 0) + 1;
         return countMap;
