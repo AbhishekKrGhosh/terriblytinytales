@@ -1,4 +1,10 @@
-<h1 align="center>TerriblyTinyTales</h1>
+<h1>TerriblyTinyTales</h1>
+
+<hr/>
+
+<h2>Histogram Data Visualization</h2>
+
+
 
 Live link: https://ttt-by-abhishek.netlify.app/
 
