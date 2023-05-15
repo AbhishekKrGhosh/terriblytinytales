@@ -25,7 +25,7 @@ This is a React component for visualizing histogram data using the Recharts libr
 
 To use this component in your React project, you need to have react, react-router-dom, recharts and axios installed. You can install them by running the following command:
 <br/>
-npm install react
+npm install
 <br/>
 npm install axios
 <br/>
@@ -35,6 +35,10 @@ npm install recharts
 <br/>
 
 <h3>Component Explanation </h3>
+<li>App.js</li>
+<li>Home.js</li>
+<li>Chart.js</li>
+<li>Navigation.js</li>
   
 The Chart component has the following features:
 <br/>
