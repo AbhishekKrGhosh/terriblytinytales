@@ -1,4 +1,4 @@
-<h1>TerriblyTinyTales</h1>
+<h1 align="center>TerriblyTinyTales</h1>
 
 Live link: https://ttt-by-abhishek.netlify.app/
 
