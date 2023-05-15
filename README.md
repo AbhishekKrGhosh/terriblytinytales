@@ -144,9 +144,9 @@ The navigation bar is wrapped in a <nav> element with the class name "navbar".
 <br/>
 The <Link> component with the class name "logo" represents the application logo or title. It links to the root path ("/") using the to prop.
 <br/>
-The <ul> element with the class name "nav-links" represents the list of navigation links.
+The '<ul>' element with the class name "nav-links" represents the list of navigation links.
 <br/>
-Inside the list, there is a single navigation item represented by an <li> element.
+Inside the list, there is a single navigation item represented by an '<li>' element.
 <br/>
 The navigation link is created using the <Link> component. It has the class name "plain-link" and links to the root path ("/") using the to prop. The link text is "Home".
 <br/>
