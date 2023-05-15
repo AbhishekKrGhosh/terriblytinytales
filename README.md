@@ -21,7 +21,7 @@ This is a React component for visualizing histogram data using the Recharts libr
 
 <br/>
 
-<h3>Installation</h3>
+<h2>Installation</h2>
 
 To use this component in your React project, you need to have react, react-router-dom, recharts and axios installed. You can install them by running the following command:
 <br/>
@@ -34,13 +34,13 @@ npm install react-router-dom
 npm install recharts
 <br/>
 
-<h3>Component Explanation </h3>
+<h2>Component Explanation </h2>
 <li>App.js</li>
 <li>Home.js</li>
 <li>Chart.js</li>
 <li>Navigation.js</li>
 <br/>
-<h2>App.js</h2>
+<h3>App.js</h3>
 <br/>
 This code sets up the routing for a React application using React Router. Let's go through it step by step:
 <br/>
@@ -72,7 +72,7 @@ Finally, the App component is exported as the default export of the module.
 <br/>
 This code sets up the basic routing structure for the application, rendering different components based on the accessed URL paths. The Home, Download, and NotFound components are used as placeholders for the actual components that will be rendered for each route.
 <hr/>
-<h2>Home.js</h2>
+<h3>Home.js</h3>
 <br/>
 This code defines the Home component, which represents the content of the home page in a React application. Let's go through the code step by step:
 <br/>
@@ -106,7 +106,7 @@ The button has the class name "box" and wraps a Link component from React Router
 <br/>
 Finally, the Home component is exported as the default export of the module.
 <hr/>
-  <h2>Chart.js</h2>
+  <h3>Chart.js</h3>
   <br/>
 The Chart component has the following features:
 <br/>
@@ -126,7 +126,7 @@ The bar chart is only rendered when there is data available in the histogramData
   <br/>
 A button is provided to export the histogram data as a CSV file.
   <hr/>
-  <h2>Navigation.js</h2>
+  <h3>Navigation.js</h3>
   <br/>
   This code defines the Navigation component, which represents the navigation bar in a React application. Let's break down the code:
 <br/>
