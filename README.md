@@ -60,11 +60,11 @@ The Routes component is used as a container for defining individual routes.
 <br/>
 The Route components define the routes and specify which component should be rendered when a specific route is matched.
 <br/>
-The first Route component has a path prop set to '/' and an element prop set to <Home />. It indicates that when the root path is accessed, the Home component should be rendered.
+The first Route component has a path prop set to '/' and an element prop set to Home . It indicates that when the root path is accessed, the Home component should be rendered.
 <br/>
-The second Route component has a path prop set to '/download' and an element prop set to <Download />. It specifies that when the /download path is accessed, the Download component should be rendered.
+The second Route component has a path prop set to '/download' and an element prop set to Download . It specifies that when the /download path is accessed, the Download component should be rendered.
 <br/>
-The third Route component has a path prop set to '*' which acts as a wildcard, matching any path that hasn't been matched by the previous routes. The element prop is set to <NotFound />, indicating that if none of the defined routes match, the NotFound component should be rendered.
+The third Route component has a path prop set to '*' which acts as a wildcard, matching any path that hasn't been matched by the previous routes. The element prop is set to NotFound , indicating that if none of the defined routes match, the NotFound component should be rendered.
 <br/>
 The Router and Routes components are wrapped around the content of the App component.
 <br/>
@@ -90,19 +90,19 @@ Inside the Home component, the Navigation component is rendered. It will display
 <br/>
 The JSX code within the return statement represents the structure and content of the home page.
 <br/>
-The JSX code is wrapped in a <div> element.
+The JSX code is wrapped in a div element.
 <br/>
 The <section> element represents a section within the page.
 <br/>
-There are three <div> elements with the class name "Colour" that are used to create colored background sections.
+There are three div elements with the class name "Colour" that are used to create colored background sections.
 <br/>
-Inside the fourth <div> element with the class name "Box", there are six <div> elements with the class name "Square". These elements create a grid-like structure.
+Inside the fourth div element with the class name "Box", there are six div elements with the class name "Square". These elements create a grid-like structure.
 <br/>
-The sixth <div> element with the class name "Container" wraps the form.
+The sixth div element with the class name "Container" wraps the form.
 <br/>
-Inside the "Container", the "Form" <div> element contains a button.
+Inside the "Container", the "Form" div element contains a button.
 <br/>
-The button has the class name "box" and wraps a <Link> component from React Router. The <Link> component creates a link to the "/download" route, and the text "SUBMIT" is displayed inside the button.
+The button has the class name "box" and wraps a Link component from React Router. The <Link> component creates a link to the "/download" route, and the text "SUBMIT" is displayed inside the button.
 <br/>
 Finally, the Home component is exported as the default export of the module.
 <hr/>
@@ -144,9 +144,9 @@ The navigation bar is wrapped in a <nav> element with the class name "navbar".
 <br/>
 The <Link> component with the class name "logo" represents the application logo or title. It links to the root path ("/") using the to prop.
 <br/>
-The '<ul>' element with the class name "nav-links" represents the list of navigation links.
+The  ul  element with the class name "nav-links" represents the list of navigation links.
 <br/>
-Inside the list, there is a single navigation item represented by an '<li>' element.
+Inside the list, there is a single navigation item represented by an li element.
 <br/>
 The navigation link is created using the <Link> component. It has the class name "plain-link" and links to the root path ("/") using the to prop. The link text is "Home".
 <br/>
