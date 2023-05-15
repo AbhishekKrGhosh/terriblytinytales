@@ -1,0 +1,252 @@
+* {
+    Margin: 0;
+    Padding: 0;
+    Box-Sizing: Border-Box;
+    Font-Family: "Poppins", Sans-Serif;
+}
+
+
+
+Section {
+    Display: Flex;
+    Min-Height: 100vh;
+    Align-Items: Center;
+    Justify-Content: Center;
+    Background: Linear-Gradient(To Bottom, #F7f7fe, #Dff1ff);
+}
+
+Section .Colour {
+    Position: Absolute;
+    Filter: Blur(150px);
+}
+
+Section .Colour:nth-Child(1) {
+    Top: -350px;
+    Width: 600px;
+    Height: 600px;
+    Background: #146C94;
+}
+
+Section .Colour:nth-Child(2) {
+    Left: 100px;
+    Width: 500px;
+    Height: 500px;
+    Bottom: -150px;
+    Background: #19A7CE;
+}
+
+Section .Colour:nth-Child(3) {
+    Right: 100px;
+    Bottom: 50px;
+    Width: 300px;
+    Height: 300px;
+    Background: #B0DAFF;
+}
+
+.Box {
+    Position: Relative;
+}
+
+.Box .Square {
+    Position: Absolute;
+    Border-Radius: 10px;
+    Backdrop-Filter: Blur(5px);
+    Background: Rgba(255, 255, 255, 0.1);
+    Animation-Delay: Calc(-1s * Var(--I));
+    Animation: Animate 10s Linear Infinite;
+    Box-Shadow: 0 25px 45px Rgba(0, 0, 0, 0.1);
+    Border: 1px Solid Rgba(255, 255, 255, 0.5);
+    Border-Right: 1px Solid Rgba(255, 255, 255, 0.2);
+    Border-Bottom: 1px Solid Rgba(255, 255, 255, 0.2);
+}
+
+@keyframes Animate {
+
+    0%,
+    100% {
+        Transform: TranslateY(-40px);
+    }
+
+    50% {
+        Transform: TranslateY(40px);
+    }
+}
+
+.Box .Square:nth-Child(1) {
+    Top: -50px;
+    Left: -60px;
+    Width: 100px;
+    Height: 100px;
+}
+
+.Box .Square:nth-Child(2) {
+    Z-Index: 2;
+    Top: 150px;
+    Left: -100px;
+    Width: 120px;
+    Height: 120px;
+}
+
+.Box .Square:nth-Child(3) {
+    Z-Index: 2;
+    Width: 80px;
+    Height: 80px;
+    Right: -50px;
+    Bottom: -60px;
+}
+
+.Box .Square:nth-Child(4) {
+    Left: 100px;
+    Width: 50px;
+    Height: 50px;
+    Bottom: -80px;
+}
+
+.Box .Square:nth-Child(5) {
+    Top: -80px;
+    Left: 140px;
+    Width: 60px;
+    Height: 60px;
+}
+
+.Container {
+    Width: 400px;
+    Display: Flex;
+    Min-Height: 400px;
+    Position: Relative;
+    Border-Radius: 10px;
+    Align-Items: Center;
+    Justify-Content: Center;
+    Backdrop-Filter: Blur(5px);
+    Background: Rgba(255, 255, 255, 0.1);
+    Box-Shadow: 0 25px 45px Rgba(0, 0, 0, 0.1);
+    Border: 1px Solid Rgba(255, 255, 255, 0.5);
+    Border-Right: 1px Solid Rgba(255, 255, 255, 0.2);
+    Border-Bottom: 1px Solid Rgba(255, 255, 255, 0.2);
+}
+
+.Form {
+    Width: 100%;
+    Height: 100%;
+    Padding: 40px;
+    Position: Relative;
+}
+
+.Form H2 {
+    Color: #Fff;
+    Font-Size: 24px;
+    Font-Weight: 600;
+    Position: Relative;
+    Letter-Spacing: 1px;
+    Margin-Bottom: 40px;
+}
+
+.Form H2::Before {
+    Left: 0;
+    Width: 80px;
+    Height: 4px;
+    Content: "";
+    Bottom: -10px;
+    Background: #Fff;
+    Position: Absolute;
+}
+
+.Form .Input__box {
+    Width: 100%;
+    Margin-Top: 20px;
+}
+
+.Form .Input__box Input {
+    Width: 100%;
+    Color: #Fff;
+    Border: None;
+    Outline: None;
+    Font-Size: 16px;
+    Padding: 10px 20px;
+    Letter-Spacing: 1px;
+    Border-Radius: 35px;
+    Background: Rgba(255, 255, 255, 0.2);
+    Border: 1px Solid Rgba(255, 255, 255, 0.5);
+    Box-Shadow: 0 5px 15px Rgba(0, 0, 0, 0.05);
+    Border-Right: 1px Solid Rgba(255, 255, 255, 0.2);
+    Border-Bottom: 1px Solid Rgba(255, 255, 255, 0.2);
+}
+
+.Form::Placeholder {
+    Color: #Fff;
+}
+
+.Form .Input__box Input[Type="Submit"] {
+    Color: #666;
+    Cursor: Pointer;
+    Background: #Fff;
+    Max-Width: 100px;
+    Font-Weight: 600;
+    Margin-Bottom: 20px;
+}
+
+.Forget {
+    Color: #Fff;
+    Margin-Top: 5px;
+}
+
+.Forget A {
+    Color: #Fff;
+    Font-Weight: 600;
+    Text-Decoration: None;
+}
+
+
+.box {
+	background: linear-gradient(to right, #32527B, #153763);
+	color: white;
+	--width: 250px;
+	--height: calc(var(--width) / 3);
+	width: var(--width);
+	height: var(--height);
+	text-align: center;
+	line-height: var(--height);
+	font-size: calc(var(--height) / 2.5);
+	font-family: sans-serif;
+	letter-spacing: 0.2em;
+	border: 1px solid #3b649a;
+	border-radius: 2em;
+	transform: perspective(500px) rotateY(-15deg);
+	text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+	position: relative;
+	overflow: hidden;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:hover {
+	transform: perspective(500px) rotateY(15deg);
+	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.box::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, transparent, white, transparent);
+	left: -100%;
+	transition: 0.5s;
+}
+
+.box:hover::before {
+	left: 100%;
+}
+button{
+    margin-left: 20px;
+}
+
+.plain-link {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }

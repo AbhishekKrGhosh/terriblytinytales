@@ -1,0 +1,43 @@
+*{
+  margin-top: 0;
+}
+.App {
+  text-align: center;
+}
+
+Section {
+  Display: Flex;
+  Min-Height: 100vh;
+  Align-Items: Center;
+  Justify-Content: Center;
+  Background: Linear-Gradient(To Bottom, #F7f7fe, #Dff1ff);
+}
+
+Section .Colour {
+  Position: Absolute;
+  Filter: Blur(150px);
+}
+
+Section .Colour:nth-Child(1) {
+  Top: -350px;
+  Width: 600px;
+  Height: 600px;
+  Background: #146C94;
+}
+
+Section .Colour:nth-Child(2) {
+  Left: 100px;
+  Width: 500px;
+  Height: 500px;
+  Bottom: -150px;
+  Background: #19A7CE;
+}
+
+Section .Colour:nth-Child(3) {
+  Right: 100px;
+  Bottom: 50px;
+  Width: 300px;
+  Height: 300px;
+  Background: #B0DAFF;
+}
+
